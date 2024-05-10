@@ -18,7 +18,7 @@ dispatch(putCartThunk('/cart', {quantity: prod.quantity - 1}, prod.id));
 }
 
 const handlePlus = () => {
-dispatch(putCartThunk('/cart', {quantity: prod.quantity + 1}, prod.id)) ;
+dispatch(putCartThunk('/cart', {quantity: prod.quantity + 1}, prod.id));
 }
 
 

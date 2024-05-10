@@ -1,9 +1,11 @@
 .homepage__filters {
+  border: 1px;
     padding: 20px;
+    margin: 1% 10%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 10px;
 }
 .homepage__filtername {
@@ -16,9 +18,21 @@
   content: 'Ligth';
 }
 .homepage__container {
-    padding: 20px;
+  border: 1px;
+  margin: 1% 10%;
+    padding: 20px 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 30px;
     }
+.homepage__input {
+  border-radius: 15px 0px 0px 15px;
+  background-color: rgba(161, 160, 160, 0.342);
+  border: none;
+  outline: none;
+}
+.homepage__buton {
+  background-color: orange;
+  border: none;
+}

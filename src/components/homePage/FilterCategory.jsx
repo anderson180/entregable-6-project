@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import useFetch from '../../hooks/useFetch';
+import './styles/filterCategory.css';
 
 const FilterCategory = ({setProdCategory}) => {
 
@@ -18,8 +19,8 @@ const handleChange = () => {
 }
 
   return (
-  <select ref={selectOption} onChange={handleChange}>
-    <option value="ewe">All Categories</option>
+  <select className='filter__category' ref={selectOption} onChange={handleChange}>
+    <option className='filter__category' value="ewe">All Categories</option>
     {
         categories?.map(category => (
             <option key={category.id} value={category.id}>{category.name}</option>

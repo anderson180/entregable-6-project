@@ -1,6 +1,7 @@
 .navbar {
     background-color: orange;
-    padding: 0 20px;
+    box-shadow: 1px 5px 15px 2px #08080839;
+    padding: 1% 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;

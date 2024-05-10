@@ -8,9 +8,9 @@ const NavBar = () => {
     <header className='navbar'>
         <h1 className='navbar__title'><Link to='/'>E-commerce</Link></h1>
         <ul className='navbar__list'>
-            <li className='navbar__item'><Link to='/login'/>Login<Link/></li>
-            <li className='navbar__item'><Link to='/purchases'/>Purchases<Link/></li>
-            <li className='navbar__item'><Link to='/cart'/>Cart<Link/></li>
+            <li className='navbar__item'><Link to='/login'>Login</Link></li>
+            <li className='navbar__item'><Link to='/purchases'>Purchases</Link></li>
+            <li className='navbar__item'><Link to='/cart'>Cart</Link></li>
         </ul>
     </header>
   )

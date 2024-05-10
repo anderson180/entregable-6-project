@@ -46,8 +46,8 @@ const handleDark = () => {
     <div className='homepage'>
       <div className='homepage__filters'>
         <div className='homepage__filtername'>
-          <input ref={textInput} onChange={handleChange} type="text" />
-        <button>🔎</button>
+          <input className='homepage__input'ref={textInput} onChange={handleChange} type="text" />
+        <button className='homepage__buton'><ion-icon name="search"></ion-icon></button>
         </div>
         <FilterPrice
         setProdPrice={setProdPrice}

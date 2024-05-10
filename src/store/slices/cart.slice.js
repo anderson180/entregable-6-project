@@ -37,7 +37,7 @@ export const postCartThunk = (path, data) => dispatch => {
     const url =`${urlBase}${path}`;
     axios.post(url, data, getToken())
     .then(res => dispatch(addCart(res.data)))
-    .catch(err => console.log(err))
+    .catch(err => console.log(err));
 }
 
 export const deleteCartThunk = (path, id) => dispatch => {
